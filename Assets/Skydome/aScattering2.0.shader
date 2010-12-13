@@ -92,7 +92,7 @@ Shader "aScattering 2.0" {
 			float SR =(1.05f-pow(ray.y,0.3f)) * 2000;
 			float SM=far*0.05f;
 			float3 L=Lin(Theta, SR, SM );
-
+ 
 			//cloud stuff
 			float3 normVect=normalize(Input.vertex)/100;
 			OUT.orgposz=abs(Input.vertex.y);
