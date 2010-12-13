@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Skydome.csproj", "{3ED4335A-E8A3-4B7E-ED70-7B908EEF8FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ED4335A-E8A3-4B7E-ED70-7B908EEF8FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED4335A-E8A3-4B7E-ED70-7B908EEF8FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED4335A-E8A3-4B7E-ED70-7B908EEF8FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED4335A-E8A3-4B7E-ED70-7B908EEF8FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
