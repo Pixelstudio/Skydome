@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skydome\Sun.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skydome\skydomeScript2.cs" ctype="Workbench">
     <Files>
-      <File FileName="Assets\Skydome\skydomeScript2.cs" Line="38" Column="1" />
-      <File FileName="Assets\Skydome\Sun.cs" Line="63" Column="13" />
-      <File FileName="Assets\Skydome\aScattering2.0.shader" Line="1" Column="1" />
+      <File FileName="Assets\Skydome\skydomeScript2.cs" Line="48" Column="25" />
+      <File FileName="Assets\Skydome\Skydome.cs" Line="45" Column="2" />
+      <File FileName="Assets\Skydome\Skydome-old.cs" Line="5" Column="21" />
+      <File FileName="Assets\Skydome\Cloud.cs" Line="19" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

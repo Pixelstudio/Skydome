@@ -49,10 +49,13 @@
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Skydome\aScattering2.0.shader" />
+     <None Include="Assets\Skydome\aScattering2.1.shader" />
+     <Compile Include="Assets\Skydome\Skydome-old.cs" />
      <Compile Include="Assets\Skydome\Skydome.cs" />
+     <Compile Include="Assets\Skydome\skydomeScript2.cs" />
      <Compile Include="Assets\Skydome\Sun.cs" />
+     <Compile Include="Assets\Standard Assets\Camera Scripts\MouseLook.cs" />
      <Compile Include="Assets\Standard Assets\fpsWalker.cs" />
-     <Compile Include="Assets\Standard Assets\MouseLook.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
