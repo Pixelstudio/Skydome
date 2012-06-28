@@ -1,9 +1,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Assembly-CSharp-firstpass.csproj", "{33A50564-913D-9A12-640E-FDDBE42476B2}"
+Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Assembly-CSharp-firstpass-vs.csproj", "{33A50564-913D-9A12-640E-FDDBE42476B2}"
 EndProject
-Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Assembly-CSharp.csproj", "{03A00A6F-342D-92E7-E14E-24E9F22A3575}"
+Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Assembly-CSharp-vs.csproj", "{03A00A6F-342D-92E7-E14E-24E9F22A3575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -41,4 +41,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
