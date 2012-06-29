@@ -5,6 +5,8 @@ Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Assembly-CSharp-
 EndProject
 Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Assembly-CSharp.csproj", "{03A00A6F-342D-92E7-E14E-24E9F22A3575}"
 EndProject
+Project("{FADF4AB3-A35F-AA7C-8B48-FC17B673FFF1}") = "Skydome", "Assembly-UnityScript-firstpass.unityproj", "{5A09012B-E697-6413-E73C-010086B75644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{03A00A6F-342D-92E7-E14E-24E9F22A3575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A00A6F-342D-92E7-E14E-24E9F22A3575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A00A6F-342D-92E7-E14E-24E9F22A3575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A09012B-E697-6413-E73C-010086B75644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A09012B-E697-6413-E73C-010086B75644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A09012B-E697-6413-E73C-010086B75644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A09012B-E697-6413-E73C-010086B75644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
+							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
