@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\fpsWalker.cs" />
+     <None Include="Assets\Skydome\aScattering2.1.shader" />
      <None Include="Assets\Skydome\aScattering2.0.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

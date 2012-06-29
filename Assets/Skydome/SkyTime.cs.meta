@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: 47f048f256d29b7428352774558a9860
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - skydome: {fileID: 100000, guid: cca4ea8ac9a408547b6bf9e2a7c5e289, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}

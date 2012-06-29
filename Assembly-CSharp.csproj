@@ -44,8 +44,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Skydome\SkyTime.cs" />
      <Compile Include="Assets\Skydome\Skydome.cs" />
      <Compile Include="Assets\Skydome\Sun.cs" />
+     <Compile Include="Assets\Skydome\skydomeScript2.cs" />
+     <None Include="Assets\Skydome\aScattering2.1.shader" />
      <None Include="Assets\Skydome\aScattering2.0.shader" />
   </ItemGroup>
   <ItemGroup>
