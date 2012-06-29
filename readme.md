@@ -1,4 +1,4 @@
-# Unity skybox 
+# Skydome
 
 Modular skybox with sun and cloud movement...
 
