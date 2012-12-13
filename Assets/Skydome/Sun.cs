@@ -105,8 +105,10 @@ public class Sun : MonoBehaviour
         Vector3 res = new Vector3();
         res.y = sunDir.x * Mathf.Sin(sunDir.z);
         float tmp = sunDir.x * Mathf.Cos(sunDir.z);
-        res.x = tmp * Mathf.Cos(sunDir.y);
-        res.z = tmp * Mathf.Sin(sunDir.y);
+        //res.x = tmp * Mathf.Cos(sunDir.y);
+		res.z = (tmp * Mathf.Cos(sunDir.y)) * -1; // Change to correct sun location at rise and down
+        //res.z = tmp * Mathf.Sin(sunDir.y);
+		res.x = tmp * Mathf.Sin(sunDir.y);
         return res;
     }
     void ComputeAttenuation()
@@ -118,7 +120,7 @@ public class Sun : MonoBehaviour
         
         float m;
         m = (float)(1.0f / (Mathf.Cos(m_fTheta) + 0.15f * tmp));  // Relative Optical Mass
-    //    m = (float)(1.0f / (Mathf.Cos(m_fTheta) + 0.15f * Mathf.Pow(93.885f - m_fTheta / Mathf.PI * 180.0f, -1.253f)));
+        //m = (float)(1.0f / (Mathf.Cos(m_fTheta) + 0.15f * Mathf.Pow(93.885f - m_fTheta / Mathf.PI * 180.0f, -1.253f)));
         if (m < 0)
         {
             m = 20;
@@ -138,18 +140,12 @@ public class Sun : MonoBehaviour
 		    // beta - amount of aerosols present 
 		    // alpha - ratio of small to large particle sizes. (0:4,usually 1.3)
 		    // Results agree with the graph (pg 121, MI) 
-		    const float fAlpha =1.3f;
+		    const float fAlpha = 1.3f;
             fTauA = Mathf.Exp(-m * fBeta * Mathf.Pow(fLambda[i], -fAlpha));  // lambda should be in um
 		    fTau[i] = fTauR * fTauA;
         }
-		//post processing...
-		Color pp = new Color(fTau[0], fTau[1], fTau[2]);
 
-		//pp = ColorCorrection.hsb(pp, 0, 0.2f, 0.2f);
-
-		light.color = new Color(pp.r, pp.g, pp.b);
-
-
-		m_vColor = new Vector3(pp.r,pp.g,pp.b);
+        m_vColor = new Vector3(fTau[0], fTau[1], fTau[2]);
+        light.color = new Color(fTau[0], fTau[1], fTau[2]);
     }
 }

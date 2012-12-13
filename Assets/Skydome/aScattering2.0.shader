@@ -6,14 +6,14 @@
 
 Shader "aScattering 2.0" {
 	Properties {
-		DirectionalityFactor("DirectionalityFactor",float) = 0.50468
-		SunColorIntensity("SunColorIntensity",float) = 1.468
-		tint("tint",float) = 1
-		fade("Cloud fade height",float) = 0
-		cloudSpeed1("cloudSpeed1",float)=1
-		cloudSpeed2("cloudSpeed2",float)=1.5
-		plane_height1("cloud plane height 1",float)=12
-		plane_height2("cloud plane height 2",float)=13
+		DirectionalityFactor("DirectionalityFactor",float) = 1.50468
+		SunColorIntensity("SunColorIntensity",float) = 0.7
+		tint("tint",float) = 1.9
+		fade("Cloud fade height",float) = 0.03
+		cloudSpeed1("cloudSpeed1",float)=0.006
+		cloudSpeed2("cloudSpeed2",float)=0.002
+		plane_height1("cloud plane height 1",float)=18
+		plane_height2("cloud plane height 2",float)=41
 		noisetex ("noise texture", 2D) = "white" {}
 		starTexture ("starTexture", 2D) = "white" {}
 		LightDir("LightDir",Vector) = (-0.657,-0.024,0.7758)
